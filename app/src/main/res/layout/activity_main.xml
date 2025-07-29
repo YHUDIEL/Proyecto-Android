@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejercicios Prácticos"
+            android:textSize="24sp"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 10 botones -->
+        <Button
+            android:id="@+id/btnEj1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 1" />
+
+        <Button android:id="@+id/btnEj2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 2" />
+        <Button android:id="@+id/btnEj3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 3" />
+        <Button android:id="@+id/btnEj4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 4" />
+        <Button android:id="@+id/btnEj5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 5" />
+        <Button android:id="@+id/btnEj6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 6" />
+        <Button android:id="@+id/btnEj7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 7" />
+        <Button android:id="@+id/btnEj8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 8" />
+        <Button android:id="@+id/btnEj9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 9" />
+        <Button android:id="@+id/btnEj10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ejercicio 10" />
+
+    </LinearLayout>
+</ScrollView>
