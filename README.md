@@ -27,28 +27,79 @@ Rol: Desarrollador, diseñador y responsable de toda la implementación del sist
 _Descripción:_ Pantalla inicial con campos de entrada para correo y contraseña.  
 **Credenciales válidas:** `tap2025@example.com` | `tap*2025`  
 
-![Captura Login](./a04e26cd-a2ca-417c-b9cb-739c4692ecb8.jpg)
 
 ---
 
 ### 🏠 Pantalla principal con 10 ejercicios
 _Descripción:_ Una vez validado el acceso, se muestra la pantalla principal con botones para acceder a cada ejercicio.  
 
-![Pantalla principal](./580c7281-0acf-4eb3-97df-a450f7dd9539.jpg)
+
 
 ---
 
 ### 🧮 Ejercicio 1
 _Descripción:_ Simulación del ejercicio Guiado7 adaptado a Android Studio.
 
-![Ejercicio 1](./8dcf47db-04ac-4e7d-80a5-c6f1ace03759.jpg)
+
+
+---
+
+### 🧪 Ejercicio 2: Selección de sistema operativo
+
+**Descripción:**  
+Este ejercicio permite al usuario seleccionar un sistema operativo desde un `Spinner` con opciones como Windows, macOS, Linux, Android e iOS. Al hacer una selección, se muestra el nombre del sistema operativo elegido en una etiqueta. Si no se selecciona ninguno, se muestra un mensaje de advertencia indicando que no se ha hecho una selección válida.
+
+**Aprendizaje clave:**  
+- Uso de `Spinner` en Android.
+- Manejo de eventos `onItemSelected`.
+- Actualización dinámica de `TextView` con base en la selección.
+- Validación para entradas vacías.
+
+---
+
+### 🧪 Ejercicio 3: Deslizador de volumen
+
+**Descripción:**  
+Se implementa un `SeekBar` vertical que simula el control de volumen. El valor actual se refleja en una etiqueta de texto. Si el volumen está en cero, se muestra el mensaje “Volumen: Silencio”, de lo contrario se indica el porcentaje seleccionado.
+
+**Aprendizaje clave:**  
+- Implementación de `SeekBar` con orientación vertical.
+- Lectura de valor con `onProgressChanged`.
+- Condicional para cambiar el mensaje dependiendo del valor.
+- Experiencia básica de interacción con controles deslizables.
+
+---
+
+### 🧪 Ejercicio 4: Entrada de texto y visualización
+
+**Descripción:**  
+Este ejercicio permite al usuario ingresar un nombre en un campo de texto y al presionar un botón, el texto se muestra en una etiqueta en pantalla. Es un ejercicio simple de entrada-salida de texto.
+
+**Aprendizaje clave:**  
+- Uso de `EditText` para capturar texto.
+- Interacción con `Button` mediante `onClickListener`.
+- Actualización del `TextView` con el texto ingresado.
+- Validación básica para evitar entradas vacías.
+
+---
+
+### 🧪 Ejercicio 5: Botones de incremento y decremento
+
+**Descripción:**  
+El ejercicio consiste en un contador que se puede incrementar o decrementar mediante dos botones. El valor actual se muestra en una etiqueta. Se evita que el contador baje de cero.
+
+**Aprendizaje clave:**  
+- Lógica de incremento y decremento.
+- Prevención de valores negativos.
+- Interacción con múltiples botones para modificar una variable.
+- Actualización en tiempo real del resultado en pantalla.
 
 ---
 
 ### 🎚️ Ejercicio 6
 _Descripción:_ Control de volumen con `SeekBar` mostrando mensajes según el valor. Basado en el ejercicio Guiado8.
 
-![Ejercicio 6](./ac443f45-7eb6-4db1-afa2-0c68c2a9fb46.jpg)
+![Imagen de WhatsApp 2025-07-29 a las 08 48 10_4e64930b](https://github.com/user-attachments/assets/bfa51913-85a0-4588-8477-be3dc77f10d3)
 
 ---
 
@@ -56,10 +107,6 @@ _Descripción:_ Control de volumen con `SeekBar` mostrando mensajes según el va
 
 _Descripción:_ Aquí se pueden añadir imágenes que muestren datos en tablas, formularios o funcionalidades adicionales.
 
-![Tabla 1](./d412d069-98ed-4996-802e-caf86fead51c.jpg)
-![Formulario](./5b28a160-476d-4d44-8308-df8503af19ca.jpg)
-![Confirmación](./73fdab8d-491b-42f6-8d09-f82d8b435a72.jpg)
-![Resultado](./8ee6d5a4-a39a-4158-ad4f-721c7610f3ec.jpg)
 
 ---
 
@@ -104,3 +151,4 @@ ProyectoTap/
 3. Verifica que el proyecto esté en lenguaje Java.
 4. Conéctalo a un emulador o dispositivo físico.
 5. Ejecuta el proyecto (`LoginActivity` es la pantalla inicial).
+
