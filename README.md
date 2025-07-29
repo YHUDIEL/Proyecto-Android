@@ -1,89 +1,106 @@
-# Proyecto-Android
+# 📱 ProyectoTap
 
-🧾 Nombre del proyecto: ProyectoTap
-👤 Desarrollador único:
-Yhudiel Mendoza Sánchez – Desarrollador, diseñador e implementador completo del sistema
+## 👤 Desarrollador
+**Yhudiel Mendoza Sánchez**  
+Rol: Desarrollador, diseñador y responsable de toda la implementación del sistema.
 
-📌 ¿Qué hace el sistema?
-Aplicación móvil de aprendizaje para Android, que inicia con un login validado y da acceso a una pantalla principal con 10 ejercicios prácticos de programación visual adaptados desde Java Swing a Android Studio. Incluye validaciones, diseño centrado, y se mantiene en orientación vertical (sin rotación de pantalla).
+---
 
-📱 Tipo de sistema
-Aplicación móvil Android, desarrollada con Java, utilizando Android Studio y diseño XML visual con validaciones dinámicas.
+## 📌 ¿Qué hace el sistema?
+**ProyectoTap** es una aplicación Android que incluye un sistema de login validado con credenciales predeterminadas y una pantalla principal con acceso a 10 ejercicios prácticos. Cada ejercicio corresponde a una actividad distinta con funcionalidad propia.
 
-✨ Funcionalidades clave
-🔐 Login con validación
-El login solicita correo y contraseña.
+---
 
-Muestra errores en etiquetas específicas debajo de los campos.
+## ✨ Características principales
 
-Sólo se puede ingresar si los datos son:
+- Login con validación de usuario y contraseña.
+- Visualización centrada y diseño responsivo.
+- 10 actividades integradas como módulos independientes.
+- Interfaz cuidada con etiquetas de error visibles para validaciones.
+- Transición fluida entre actividades.
 
-📧 tap2025@example.com
+---
 
-🔑 tap*2025
+## 🧪 Capturas de pantalla
 
-Si las credenciales son correctas, redirige a la pantalla con 10 botones para acceder a ejercicios.
+### 🔐 Login
+_Descripción:_ Pantalla inicial con campos de entrada para correo y contraseña.  
+**Credenciales válidas:** `tap2025@example.com` | `tap*2025`  
 
-📚 Ejercicios prácticos
-Cada botón dirige a un ejercicio diferente con funcionalidades adaptadas de Java Swing a Android, como:
+![Captura Login](./a04e26cd-a2ca-417c-b9cb-739c4692ecb8.jpg)
 
-Listas de selección.
+---
 
-Sliders (volumen).
+### 🏠 Pantalla principal con 10 ejercicios
+_Descripción:_ Una vez validado el acceso, se muestra la pantalla principal con botones para acceder a cada ejercicio.  
 
-Combobox simulados.
+![Pantalla principal](./580c7281-0acf-4eb3-97df-a450f7dd9539.jpg)
 
-Validaciones dinámicas.
+---
 
-Layouts responsivos y centrados.
+### 🧮 Ejercicio 1
+_Descripción:_ Simulación del ejercicio Guiado7 adaptado a Android Studio.
 
-📲 Diseño centrado y orientado
-Cada pantalla está centrada visualmente, optimizada para móviles.
+![Ejercicio 1](./8dcf47db-04ac-4e7d-80a5-c6f1ace03759.jpg)
 
-Bloqueada en orientación vertical (portrait).
+---
 
-📁 Estructura del proyecto
-swift
-Copiar
-Editar
-📦 ProyectoTap
- ┣ 📂 app/src/main/java/com/example/proyectotap
- ┃ ┣ 📄 LoginActivity.java
- ┃ ┣ 📄 MainActivity.java
- ┃ ┣ 📄 ActivityEjercicio1.java
- ┃ ┣ 📄 ActivityEjercicio2.java
- ┃ ┗ 📄 ... (hasta el 10)
- ┣ 📂 res/layout
- ┃ ┣ 📄 activity_login.xml
- ┃ ┣ 📄 activity_main.xml
- ┃ ┗ 📄 activity_ejercicioX.xml
-🧰 Tecnologías y herramientas usadas
-Android Studio Flamingo | Hedgehog
+### 🎚️ Ejercicio 6
+_Descripción:_ Control de volumen con `SeekBar` mostrando mensajes según el valor. Basado en el ejercicio Guiado8.
 
-Java (no Kotlin)
+![Ejercicio 6](./ac443f45-7eb6-4db1-afa2-0c68c2a9fb46.jpg)
 
-Gradle para gestión del proyecto
+---
 
-Emulador API 33/34/36 para pruebas
+### 📋 Tablas, formularios y funcionalidades
 
-Diseño XML con ConstraintLayout, LinearLayout y ScrollView
+_Descripción:_ Aquí se pueden añadir imágenes que muestren datos en tablas, formularios o funcionalidades adicionales.
 
-🛠️ Cómo ejecutar
-Clona o descarga este repositorio.
+![Tabla 1](./d412d069-98ed-4996-802e-caf86fead51c.jpg)
+![Formulario](./5b28a160-476d-4d44-8308-df8503af19ca.jpg)
+![Confirmación](./73fdab8d-491b-42f6-8d09-f82d8b435a72.jpg)
+![Resultado](./8ee6d5a4-a39a-4158-ad4f-721c7610f3ec.jpg)
 
-Abre el proyecto en Android Studio.
+---
 
-Conecta un dispositivo o ejecuta un emulador.
+## ⚙️ Tecnologías usadas
 
-Ejecuta el proyecto desde LoginActivity.
+| Componente | Descripción |
+|------------|-------------|
+| Android Studio | IDE de desarrollo principal |
+| Java | Lenguaje base del proyecto |
+| XML | Estructura de layouts y vistas |
+| Emulador API 36 | Pruebas de ejecución |
+| GitHub | Control de versiones y despliegue |
 
-Ingresa las credenciales válidas para acceder a los ejercicios.
+---
 
-💻 Requisitos mínimos
-Recurso	Versión / Recomendación
-Android Studio	Hedgehog o superior
-Lenguaje	Java 8+
-Dispositivo Android	API 30+
-RAM mínima	2 GB
-Resolución recomendada	1080x1920
+## 📂 Estructura del proyecto
 
+```
+ProyectoTap/
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/com/example/proyectotap/
+│           │   ├── LoginActivity.java
+│           │   ├── MainActivity.java
+│           │   ├── ActivityEjercicio1.java
+│           │   └── ActivityEjercicio6.java
+│           └── res/
+│               ├── layout/
+│               │   ├── activity_login.xml
+│               │   ├── activity_main.xml
+│               │   ├── activity_ejercicio1.xml
+│               │   └── activity_ejercicio6.xml
+```
+
+---
+
+## 📌 Instrucciones de uso
+
+1. Clona el repositorio o descárgalo en formato ZIP.
+2. Ábrelo desde Android Studio.
+3. Verifica que el proyecto esté en lenguaje Java.
+4. Conéctalo a un emulador o dispositivo físico.
+5. Ejecuta el proyecto (`LoginActivity` es la pantalla inicial).
