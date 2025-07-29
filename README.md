@@ -34,78 +34,82 @@ _Descripción:_ Pantalla inicial con campos de entrada para correo y contraseña
 _Descripción:_ Una vez validado el acceso, se muestra la pantalla principal con botones para acceder a cada ejercicio.  
 
 
+---
+## 🧪 Descripción de Ejercicios
+
+A continuación se muestran las funciones y comportamientos de cada una de las actividades desarrolladas en la app.
 
 ---
 
-### 🧮 Ejercicio 1
-_Descripción:_ Simulación del ejercicio Guiado7 adaptado a Android Studio.
+### ✅ Ejercicio 1 - Selección de Sistema Operativo
 
+- Se presenta un ComboBox editable con 5 sistemas operativos: Windows, macOS, Linux, Android e iOS.
+- Al seleccionar un sistema, se muestra en una etiqueta el sistema elegido.
+- Si no se selecciona ningún valor válido, se notifica con un mensaje.
+
+📌 Imagen del ejercicio 1:
+![Imagen de WhatsApp 2025-07-29 a las 08 34 14_de13a916](https://github.com/user-attachments/assets/35b9d6b8-6b4c-488b-9cb0-da0e0c77dc08)
 
 
 ---
 
-### 🧪 Ejercicio 2: Selección de sistema operativo
+### 🎨 Ejercicio 2 - Cambio de color de fondo
 
-**Descripción:**  
-Este ejercicio permite al usuario seleccionar un sistema operativo desde un `Spinner` con opciones como Windows, macOS, Linux, Android e iOS. Al hacer una selección, se muestra el nombre del sistema operativo elegido en una etiqueta. Si no se selecciona ninguno, se muestra un mensaje de advertencia indicando que no se ha hecho una selección válida.
+- Contiene varios botones para cambiar dinámicamente el color de fondo de la interfaz.
+- Cada botón representa un color distinto.
+- Al dar clic, el color del fondo se actualiza inmediatamente.
 
-**Aprendizaje clave:**  
-- Uso de `Spinner` en Android.
-- Manejo de eventos `onItemSelected`.
-- Actualización dinámica de `TextView` con base en la selección.
-- Validación para entradas vacías.
+📌 Imagen del ejercicio 2:
+![Imagen de WhatsApp 2025-07-29 a las 08 34 14_f26bf7af](https://github.com/user-attachments/assets/1c51f92a-937a-4752-b4d0-517ff6d782f4)
 
----
-
-### 🧪 Ejercicio 3: Deslizador de volumen
-
-**Descripción:**  
-Se implementa un `SeekBar` vertical que simula el control de volumen. El valor actual se refleja en una etiqueta de texto. Si el volumen está en cero, se muestra el mensaje “Volumen: Silencio”, de lo contrario se indica el porcentaje seleccionado.
-
-**Aprendizaje clave:**  
-- Implementación de `SeekBar` con orientación vertical.
-- Lectura de valor con `onProgressChanged`.
-- Condicional para cambiar el mensaje dependiendo del valor.
-- Experiencia básica de interacción con controles deslizables.
 
 ---
 
-### 🧪 Ejercicio 4: Entrada de texto y visualización
+### 🏅 Ejercicio 3 - Selección múltiple de deportes
 
-**Descripción:**  
-Este ejercicio permite al usuario ingresar un nombre en un campo de texto y al presionar un botón, el texto se muestra en una etiqueta en pantalla. Es un ejercicio simple de entrada-salida de texto.
+- Presenta una serie de checkboxes con diferentes deportes.
+- El usuario puede seleccionar 0, 1, 2 o hasta 3 deportes.
+- Al confirmar la selección, se muestran en una etiqueta los deportes seleccionados.
 
-**Aprendizaje clave:**  
-- Uso de `EditText` para capturar texto.
-- Interacción con `Button` mediante `onClickListener`.
-- Actualización del `TextView` con el texto ingresado.
-- Validación básica para evitar entradas vacías.
+📌 Imagen del ejercicio 3:
+![Imagen de WhatsApp 2025-07-29 a las 08 34 14_e2698339](https://github.com/user-attachments/assets/ff9c5520-b7ea-48bb-b419-970ad978f63d)
 
----
-
-### 🧪 Ejercicio 5: Botones de incremento y decremento
-
-**Descripción:**  
-El ejercicio consiste en un contador que se puede incrementar o decrementar mediante dos botones. El valor actual se muestra en una etiqueta. Se evita que el contador baje de cero.
-
-**Aprendizaje clave:**  
-- Lógica de incremento y decremento.
-- Prevención de valores negativos.
-- Interacción con múltiples botones para modificar una variable.
-- Actualización en tiempo real del resultado en pantalla.
 
 ---
 
-### 🎚️ Ejercicio 6
-_Descripción:_ Control de volumen con `SeekBar` mostrando mensajes según el valor. Basado en el ejercicio Guiado8.
+### 💳 Ejercicio 4 - Selección única de método de pago
 
-![Imagen de WhatsApp 2025-07-29 a las 08 48 10_4e64930b](https://github.com/user-attachments/assets/bfa51913-85a0-4588-8477-be3dc77f10d3)
+- Se muestran tres opciones mediante radiobuttons: Efectivo, Tarjeta y Transferencia.
+- Solo se puede elegir una opción a la vez.
+- Al presionar "Confirmar", se muestra en una etiqueta cuál fue el método elegido.
+
+📌 Imagen del ejercicio 4:
+![Imagen de WhatsApp 2025-07-29 a las 08 34 14_b6c0e696](https://github.com/user-attachments/assets/256bdaf8-813d-47a0-8b44-95293eca2795)
+
 
 ---
 
-### 📋 Tablas, formularios y funcionalidades
+### 🗺️ Ejercicio 5 - Selección única de estado
 
-_Descripción:_ Aquí se pueden añadir imágenes que muestren datos en tablas, formularios o funcionalidades adicionales.
+- Muestra una serie de radiobuttons con nombres de estados: Oaxaca, Puebla, Monterrey y Ciudad de México.
+- El usuario puede seleccionar solo uno.
+- Al dar clic en "Confirmar", se despliega el estado seleccionado en una etiqueta.
+
+📌 Imagen del ejercicio 5:
+![Imagen de WhatsApp 2025-07-29 a las 08 34 14_27c0fb94](https://github.com/user-attachments/assets/2f77b845-d5c1-4c9e-b38f-1291df5a3bda)
+
+
+---
+
+### 🔊 Ejercicio 6 - Control de volumen
+
+- Incluye un slider vertical para ajustar el volumen de 0% a 100%.
+- Se muestran las marcas de porcentaje con etiquetas y ticks.
+- Si el volumen es 0, se muestra "Silencio"; de lo contrario, el porcentaje seleccionado.
+
+📌 Imagen del ejercicio 6:
+![Imagen de WhatsApp 2025-07-29 a las 08 48 10_7548797e](https://github.com/user-attachments/assets/39918f8b-443a-45f8-a742-86d889a5fc02)
+
 
 
 ---
